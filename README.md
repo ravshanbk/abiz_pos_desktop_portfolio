@@ -5,6 +5,7 @@ A flutter project to use in retail.
 ## Getting Started
 
 This project is a pos cash box app for written in flutter framework for windows platform.
+- <a href="https://github.com/ravshanbk/governess_public_version/raw/master/app-release.apk" target="_blank"><img src="https://img.shields.io/badge/-download_apk-00a859?style=for-the-badge&logo=download&logoColor=107a8bF"></a>
 
 
 - [The project used bloc for state managment](https://pub.dev/packages/bloc)
