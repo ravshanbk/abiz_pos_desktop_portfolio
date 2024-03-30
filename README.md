@@ -22,28 +22,19 @@ __________________________
 ![Screenshot 2024-03-30 135213](https://github.com/ravshanbk/abiz_pos_desktop_portfolio/assets/88109580/cf3088e2-ba1c-4b83-bd72-e4b49f1f121f)
 ![Screenshot 2024-03-30 135220](https://github.com/ravshanbk/abiz_pos_desktop_portfolio/assets/88109580/f0082c2c-ae9e-4485-83bc-65abe7c962ab)
 ![Screenshot 2024-03-30 135601](https://github.com/ravshanbk/abiz_pos_desktop_portfolio/assets/88109580/0b4886ed-b18c-45b8-a102-46e3c828f060)
-
-
-
-
-
-
-
-
-
 __________________________
 - [Access level pages:](lib/features/access_level/presentation/pages)
 __________________________
 
-![Screenshot 2024-03-30 102529](https://github.com/ravshanbk/abiz_pos_desktop_portfolio_version/assets/88109580/0e55137b-0294-4864-af88-73f0b496e57b)
-![Screenshot 2024-03-30 102540](https://github.com/ravshanbk/abiz_pos_desktop_portfolio_version/assets/88109580/21871f1c-f951-4f58-9963-d06dc61a165c)
-![Screenshot 2024-03-30 102621](https://github.com/ravshanbk/abiz_pos_desktop_portfolio_version/assets/88109580/e1435ec6-92b5-44fd-958c-dff785303245)
+![Screenshot 2024-03-30 143244](https://github.com/ravshanbk/abiz_pos_desktop_portfolio/assets/88109580/677287bb-3b5b-4a8f-b51b-db8819d60264)
+![Screenshot 2024-03-30 143257](https://github.com/ravshanbk/abiz_pos_desktop_portfolio/assets/88109580/ddcc144e-d969-4b27-bc8b-3d7223ef4adb)
+![Screenshot 2024-03-30 143308](https://github.com/ravshanbk/abiz_pos_desktop_portfolio/assets/88109580/3b6b4430-54f8-431c-bb27-cce7d6386aa3)
 
 __________________________
 - [Sell page:](lib/features/sell/presentation/pages)
 __________________________
-![Screenshot 2024-03-30 103054](https://github.com/ravshanbk/abiz_pos_desktop_portfolio_version/assets/88109580/4213a529-03b3-439f-8330-328fd737ea78)
-![Screenshot 2024-03-30 104522](https://github.com/ravshanbk/abiz_pos_desktop_portfolio_version/assets/88109580/15f1dc8f-5757-4f54-b897-5c079d3ac4ed)
+![Screenshot 2024-03-30 144054](https://github.com/ravshanbk/abiz_pos_desktop_portfolio/assets/88109580/77d30a6b-b2d0-4668-832f-e98a09a0c410)
+![Screenshot 2024-03-30 144105](https://github.com/ravshanbk/abiz_pos_desktop_portfolio/assets/88109580/cf06539c-d159-45cc-a13d-dff11ce74533)
 __________________________
 - [Sell page actions:](lib/features/sell/presentation/pages)
 __________________________
@@ -70,10 +61,8 @@ __________________________
 - [Payment page and actions:](lib/features/payment/presentation/pages)
 __________________________
 
-
-![Screenshot 2024-03-30 104924](https://github.com/ravshanbk/abiz_pos_desktop_portfolio_version/assets/88109580/a1cb9c20-74e0-4143-b356-979dad69f9b3)
-![Screenshot 2024-03-30 104948](https://github.com/ravshanbk/abiz_pos_desktop_portfolio_version/assets/88109580/b69cc595-878c-43fb-9421-b7fddc81e8e4)
-![Screenshot 2024-03-30 104959](https://github.com/ravshanbk/abiz_pos_desktop_portfolio_version/assets/88109580/5907bacf-7e30-4713-bfcf-a1dd2bc3283b)
-![Screenshot 2024-03-30 105006](https://github.com/ravshanbk/abiz_pos_desktop_portfolio_version/assets/88109580/63c5d4e0-bfa1-4e93-b4d8-f07bbff56e82)
+![Screenshot 2024-03-30 143722](https://github.com/ravshanbk/abiz_pos_desktop_portfolio/assets/88109580/3b018874-3d89-4dca-9016-f3f3246c1999)
+![Screenshot 2024-03-30 143729](https://github.com/ravshanbk/abiz_pos_desktop_portfolio/assets/88109580/caf3b4c6-a9a9-4bda-a626-77afd8ff2602)
+![Screenshot 2024-03-30 143738](https://github.com/ravshanbk/abiz_pos_desktop_portfolio/assets/88109580/8dca4a0c-cd05-44ab-a2ed-dfe5826b90ba)
 
 
