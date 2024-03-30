@@ -1,0 +1,106 @@
+name: Flutter CI CD
+
+on:
+  push:
+    branches:
+      - "master"
+  pull_request:
+    branches:
+      - "master"
+
+env:
+  FLUTTER_CHANNEL: "stable"
+  FLUTTER_VERSION: "3.3.5"
+  PATH_TO_EXE: "build/app/outputs/windows/release/*"
+  WINDOWS_PACKAGE_NAME: "uz.in1.pos_desktop"
+
+jobs:
+  code-analysis-and-testing:
+    if: true
+    name: Code analysis and testing
+    runs-on: windows-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: ${{ env.FLUTTER_CHANNEL }}
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+
+      - name: Flutter version
+        run: flutter --version
+
+      - name: Flutter doctor
+        run: flutter doctor
+
+      - name: Enable windows
+        run: flutter config --enable-windows-desktop
+
+      - name: Futter clean
+        run: flutter clean
+
+      - name: Get dependencies
+        run: flutter pub get
+
+    # - name: Analyze project
+    #   run: flutter analyze
+
+  windows:
+    if: false
+    name: Windows CI CD
+    needs: code-analysis-and-testing
+    runs-on: windows-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: ${{ env.FLUTTER_CHANNEL }}
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+
+      - name: Flutter version
+        run: flutter --version
+
+      - name: Flutter Doctor
+        run: flutter doctor
+
+      - name: Enable Windows
+        run: flutter config --enable-windows-desktop
+
+      - name: Clean project
+        run: flutter clean
+
+      - name: Get dependencies
+        run: flutter pub get
+
+      - name: Build artifacts
+        run: flutter build windows --release
+
+      - name: Archive release
+        uses: thedoctor0/zip-release@master
+        with:
+          type: "zip"
+          filename: invan-pos-desktop.zip
+          directory: build/windows/runner/Release
+
+      # - name: Windows release
+      #   uses: softprops/action-gh-release@v1
+      #   env:
+      #       GITHUB_TOKEN: ${{ secrets.TOKEN }}
+
+      #   with:
+      #       files: build/windows/runner/Release/${{github.ref_name}}-windows.zip
+      #       tag: v1.5.${{github.run_number}}
+
+      - name: Push to releases
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: build/windows/runner/Release/invan-pos-desktop.zip
+          tag: v1.5.${{github.run_number}}
+          token: ${{ secrets.TOKEN }}

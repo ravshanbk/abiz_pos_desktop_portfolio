@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "10141980076",
+    "project_id": "testproject-b9aa2",
+    "storage_bucket": "testproject-b9aa2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10141980076:android:520f62b94b0d944c959609",
+        "android_client_info": {
+          "package_name": "com.example.abiz_pos_desktop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLDF7l-4WRp100cO7VPQfctjoZ9tfzrME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
