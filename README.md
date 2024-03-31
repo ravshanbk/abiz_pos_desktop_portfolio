@@ -1,9 +1,7 @@
 # ABIZ POS DESKTOP FOR PORTFOLIO
 
-A flutter project to use in retail.
+A flutter project to use in retail for windows OS.
 
-## Getting Started
-This project is a pos cash box app for written in flutter framework for windows platform.
 # lib(source code) folder is in .gitignore because of copywrite 
 # executable file is [here](https://github.com/ravshanbk/abiz_pos_desktop_portfolio/releases)
 
